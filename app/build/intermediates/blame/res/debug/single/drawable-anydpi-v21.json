@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/monir/.android/build-cache/640e8c8364f7c984f4ebefd47292389faf7a1f3a/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/monir/.android/build-cache/640e8c8364f7c984f4ebefd47292389faf7a1f3a/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_search.xml",
+        "source": "/home/monir/.android/build-cache/1430bb897e27aa29cd8d8096f2c0201665906551/output/res/drawable-anydpi-v21/ic_search.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/contacts.xml",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/generated/res/pngs/debug/drawable-anydpi-v21/contacts.xml"
+    }
+]

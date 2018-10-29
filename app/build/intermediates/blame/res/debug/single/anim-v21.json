@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/monir/.android/build-cache/640e8c8364f7c984f4ebefd47292389faf7a1f3a/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/monir/.android/build-cache/640e8c8364f7c984f4ebefd47292389faf7a1f3a/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

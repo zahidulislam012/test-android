@@ -1,0 +1,331 @@
+<resources>
+    <string name="app_name">টেলভো টার্মিনাল</string>
+    <string name="no_internet_connection">কোন ইন্টারনেট সংযোগ নেই। দয়া করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন।কোন ইন্টারনেট সংযোগ নেই। দয়া করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন।</string>
+    <string name="register">নিবন্ধন</string>
+    <string name="mobile_number">মোবাইল নম্বর</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="login">লগইন</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">হোম</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="telvo_terminal">টেলভো টার্মিনাল</string>
+    <string name="title_activity_main">টেলভো টার্মিনাল</string>
+    <string name="cash_in">ক্যাশ ইন</string>
+    <string name="cash_out">ক্যাশ আউট</string>
+    <string name="transfer">ট্রান্সফার</string>
+    <string name="history">ইতিহাস</string>
+    <string name="support">সহায়তা</string>
+    <string name="settings">সেটিংস</string>
+    <string name="time">তারিখ</string>
+    <string name="submit">জমা দিন</string>
+    <string name="email">ইমেল</string>
+    <string name="sms_verification_message">আমরা আপনার মোবাইল নম্বরে একটি যাচাইকরণ এসএমএস পাঠিয়েছি। এখানে যাচাইকরণ কোড জমা দিন:</string>
+    <string name="sms_verification">খুদেবার্তা যাচাইকরণ</string>
+    <string name="account">একাউন্ট</string>
+    <string name="pending">অসম্পন্ন</string>
+    <string name="pending_transfer">অসম্পন্ন ট্রান্সফার</string>
+    <string name="activity_log">কার্যকলাপ লগ</string>
+    <string name="shop_payment">কেনাকাটা পেমেন্ট</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গিয়েছেন?</string>
+    <string name="account_balance">অ্যাকাউন্ট ব্যালেন্স</string>
+    <string name="no_account">কোনও অ্যাকাউন্ট নেই?</string>
+    <string name="register_here">এখানে নিবন্ধন করুন</string>
+    <string name="terms_and_conditions">শর্তাবলী</string>
+    <string name="registration">নিবন্ধন</string>
+
+    <string name="currency">মুদ্রা</string>
+    <string name="personal_information">ব্যক্তিগত তথ্য</string>
+    <string name="address_information">ঠিকানা তথ্য</string>
+    <string name="introducer_information">উপস্থাপক তথ্য</string>
+    <string name="name">নাম</string>
+    <string name="nameEmpty">নাম খালি</string>
+    <string name="mobile_numberEmpty">মোবাইল নম্বর খালি</string>
+    <string name="passwordEmpty">পাসওয়ার্ড খালি</string>
+    <string name="emailEmpty"> ইমেল খালি</string>
+    <string name="sms_verificationCodeEmpty">খুদেবার্তা যাচাইকরণ কোডটি খালি</string>
+    <string name="male">পুরুষ</string>
+    <string name="female">মহিলা</string>
+    <string name="national_id">জাতীয় পরিচয়পত্র নম্বর</string>
+    <string name="passport_number">পাসপোর্ট নম্বর</string>
+    <string name="father_name">পিতার নাম</string>
+    <string name="mother_name">মাতার নাম</string>
+    <string name="spouse_name">পত্নী নাম</string>
+    <string name="birth_date">জন্ম তারিখ</string>
+    <string name="date_of_birth">জন্ম তারিখ</string>
+    <string name="address_line_1">ঠিকানা লাইন ১</string>
+    <string name="address_line_2">ঠিকানা লাইন ২</string>
+    <string name="city">শহর</string>
+    <string name="postal_code">পোস্টাল কোড</string>
+    <string name="present">বর্তমান</string>
+    <string name="permanent">স্থায়ী</string>
+    <string name="same_as_present_address">বর্তমান ঠিকানা হিসাবে একই</string>
+    <string name="has_telvo_terminal_account">টেলভো টার্মিনাল একাউন্ট আছে</string>
+    <string name="introducer">প্রবর্তক</string>
+    <string name="credit_card">ক্রেডিট কার্ড</string>
+    <string name="recharge_card">রিচার্জ কার্ড</string>
+    <string name="card_number">কার্ড নম্বর</string>
+    <string name="amount">পরিমাণ</string>
+    <string name="csv">সিএসভি</string>
+    <string name="proceed">এগিয়ে যান</string>
+    <string name="success">সফল!</string>
+    <string name="balance">ব্যালেন্স</string>
+    <string name="withdraw">উত্তোলন</string>
+    <string name="area">এলাকা</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="atm_withdraw">এটিএম উত্তোলন</string>
+    <string name="home_request">হোম অনুরোধ</string>
+    <string name="current_balance">বর্তমান ব্যালেন্স</string>
+    <string name="pin_code">পিন কোড</string>
+    <string name="generate_qr">কিউআর জেনারেট করুন</string>
+    <string name="atm_qr_code">এটিএম কিউআর কোড</string>
+    <string name="transfer_qr_code">ট্রান্সফার কিউআর কোড</string>
+    <string name="address">ঠিকানা</string>
+    <string name="district">জেলা</string>
+    <string name="confirm_request">অনুরোধ নিশ্চিত করুন</string>
+    <string name="reference">রেফারেন্স</string>
+    <string name="account_number">অ্যাকাউন্ট নম্বর</string>
+    <string name="nid_number">জাতীয় পরিচয়পত্র নম্বর</string>
+    <string name="to">প্রতি</string>
+    <string name="confirm_transfer">ট্রান্সফার নিশ্চিত করুন</string>
+    <string name="waiting_time">অপেক্ষা করা সময়</string>
+    <string name="account_name">অ্যাকাউন্টের নাম</string>
+    <string name="confirm_payment">পেমেন্ট নিশ্চিত করুন</string>
+    <string name="call_24_7">কল ২৪/৭</string>
+    <string name="help_and_support">সহায়তা</string>
+    <string name="TermsAndConditions">শর্তাবলী</string>
+    <string name="ask_us_anytime_for_help_and_support">সহায়তা এবং সমর্থনের জন্য আমাদের যেকোনো সময় জিজ্ঞাসা করুন</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="see_privacy_policy_for_using_our_service">আমাদের পরিষেবা ব্যবহার করার জন্য গোপনীয়তা নীতি দেখুন</string>
+    <string name="see_terms_and_conditions_of_our_service">আমাদের পরিষেবার শর্তাবলী দেখুন</string>
+    <string name="feedback">প্রতিক্রিয়া</string>
+    <string name="provide_feedback_to_improve_the_service">পরিষেবাটি উন্নত করার জন্য প্রতিক্রিয়া প্রদান করুন</string>
+    <string name="subject">বিষয়</string>
+    <string name="details">বিবরণ</string>
+    <string name="app_version">অ্যাপ সংস্করণ</string>
+    <string name="rate">রেট</string>
+    <string name="rate_the_app_on_the_play_store">Play Store এ অ্যাপ্লিকেশনের রেট দিন </string>
+    <string name="invite_friends">বন্ধুদের আমন্ত্রণ করুন</string>
+    <string name="invite_your_friends_to_use_the_app">অ্যাপ্লিকেশনটি ব্যবহার করতে আপনার বন্ধুদেরকে আমন্ত্রণ করুন</string>
+    <string name="walkthrough">কার্য পদ্ধতি</string>
+    <string name="learn_more_about_the_app">অ্যাপ সম্পর্কে আরো জানুন</string>
+    <string name="about">সম্পর্কে</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="notifications">বিজ্ঞপ্তিগুলি</string>
+    <string name="vibrate_and_play_sound">​​কম্পন এবং শব্দ</string>
+    <string name="change_4_digit_pin_code">৪ ডিজিটের পিন কোডটি পরিবর্তন করুন</string>
+    <string name="old_pin">পুরানো পিন</string>
+    <string name="new_pin">নতুন পিন</string>
+    <string name="confirm_pin">নিশ্চিতকরণ পিন</string>
+    <string name="play_sound">​​শব্দ প্লে করুন</string>
+    <string name="vibration">কম্পন</string>
+    <string name="sound">শব্দ</string>
+    <string name="change_pin">পিন কোড পরিবর্তন করুন</string>
+    <string name="currency_not_selected">আপনাকে অবশ্যই একটি মুদ্রা নির্বাচন করতে হবে</string>
+    <string name="present_address_line_1_empty">বর্তমান ঠিকানা লাইন ১ খালি</string>
+    <string name="present_address_line_2_empty"> বর্তমান ঠিকানা লাইন ২ খালি</string>
+    <string name="present_city_empty">বর্তমান শহর খালি</string>
+    <string name="present_postal_code_empty">বর্তমান পোস্টাল কোড খালি</string>
+    <string name="present_country_was_not_selected">বর্তমান দেশ নির্বাচিত হয়নি</string>
+    <string name="permanent_address_line_1_empty">স্থায়ী ঠিকানা লাইন ১ খালি</string>
+    <string name="permanent_address_line_2_empty">স্থায়ী ঠিকানা লাইন ২ খালি</string>
+    <string name="permanent_city_empty">স্থায়ী শহর খালি</string>
+    <string name="permanent_postal_code_empty">স্থায়ী ডাক কোড খালি</string>
+    <string name="permanent_country_was_not_selected">স্থায়ী দেশ নির্বাচন করা হয়নি</string>
+    <string name="picture_not_selected">ছবি নির্বাচিত হয়নি</string>
+    <string name="sign_not_selected">স্বাক্ষরযুক্ত ছবি নির্বাচিত হয়নি</string>
+    <string name="father_name_empty">পিতার নাম খালি</string>
+    <string name="mother_name_empty">মাতার নাম খালি</string>
+    <string name="spouse_name_empty">স্বামী বা স্ত্রী নাম খালি</string>
+    <string name="nationality_not_selected">জাতীয়তা নির্বাচিত হয়নি</string>
+    <string name="date_of_birth_empty">জন্ম তারিখ খালি</string>
+    <string name="gender_not_selected">লিঙ্গ নির্বাচন করা হয়নি</string>
+    <string name="national_id_or_passport_number_empty">জাতীয় পরিচয়পত্র নম্বর বা পাসপোর্ট নম্বর খালি</string>
+    <string name="csv_empty">সিএসভি খালি</string>
+    <string name="amount_empty">পরিমাণ খালি</string>
+    <string name="name_empty">নাম খালি</string>
+    <string name="card_number_empty">কার্ড নম্বর খালি</string>
+    <string name="date_not_selected">তারিখ নির্বাচন করা হয়নি</string>
+    <string name="enter_pin_code">পিন কোড লিখুন</string>
+    <string name="district_not_selected">জেলা নির্বাচিত নেই</string>
+    <string name="area_not_selected">এলাকা নির্বাচিত না</string>
+    <string name="area_empty">এলাকা খালি</string>
+    <string name="enter_old_pin_code">পুরানো পিন কোড লিখুন</string>
+    <string name="enter_new_pin_code">নতুন পিন কোড লিখুন</string>
+    <string name="enter_confirm_pin_code">নিশ্চিতকরণ পিন কোড লিখুন</string>
+    <string name="new_pin_and_confirm_pin_did_not_match">নতুন PIN এবং নিশ্চিত পিন মেলেনি</string>
+    <string name="subject_empty">বিষয় খালি</string>
+    <string name="details_empty">বিবরণ খালি</string>
+    <string name="account_number_empty">অ্যাকাউন্ট নম্বর খালি</string>
+    <string name="reference_empty">রেফারেন্স খালি</string>
+    <string name="natinal_id_empty">জাতীয় পরিচয়পত্র নম্বর খালি</string>
+    <string name="address_empty">ঠিকানা খালি</string>
+    <string name="account_name_empty">অ্যাকাউন্টের নাম খালি</string>
+    <string name="select_waiting_time">অপেক্ষা করার সময় নির্বাচন করুন</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="card_number_should_be_16_digit">কার্ড নম্বর ১৬ ডিজিটের হতে হবে</string>
+    <string name="card_number_not_valid">কার্ড নম্বর বৈধ নয়</string>
+    <string name="card_expiration_date_not_valid">কার্ডের মেয়াদ বৈধ নয়</string>
+    <string name="card_holder_name">কার্ড ধারক নাম</string>
+    <string name="insufficient_balance">অপর্যাপ্ত ব্যালেন্স</string>
+    <string name="set_pin">পিন সেট করুন</string>
+    <string name="logout">লগ আউট</string>
+    <string name="email_not_valid">ইমেল বৈধ নয়</string>
+    <string name="you_must_agree_the_terms_and_conditions">আপনাকে অবশ্যই শর্তাবলী মেনে চলতে হবে</string>
+    <string name="qr_transfer">কিউআর ট্রান্সফার</string>
+    <string name="send">পাঠান</string>
+    <string name="receive">গ্রহণ করুন</string>
+    <string name="top_up">টপ আপ</string>
+    <string name="prepaid">প্রিপেইড</string>
+    <string name="postpaid">পোস্টপেইড</string>
+    <string name="phone_number">ফোন নম্বর</string>
+    <string name="select_operator">অপারেটর নির্বাচন করুন</string>
+    <string name="select_phone_no_type">ফোন নম্বরের প্রকার নির্বাচন করুন</string>
+    <string name="phone_number_empty">ফোন নম্বর খালি</string>
+    <string name="payment_done">পেমেন্ট সম্পন্ন</string>
+    <string name="warning">সতর্কতা</string>
+    <string name="w_meessage">এই ব্যক্তির টেলো টার্মিনালে অ্যাকাউন্ট নেই। আপনি ট্রান্সফার করতে চান?</string>
+    <string name="fees">ফি</string>
+    <string name="mobile_invalid">মোবাইল নম্বরটি বৈধ নয়</string>
+    <string name="total">মোট</string>
+    <string name="SMS_Verification">খুদেবার্তা যাচাইকরণ</string>
+    <string name="SMS_Verification_Message"> আপনার খুদেবার্তা যাচাই অসম্পন্ন আছে টেলভো টার্মিনাল ব্যবহার করার জন্য দয়া করে যাচাই করুন</string>
+    <string name="exit_message">আপনি কি অ্যাপ্লিকেশন থেকে প্রস্থান করতে চান?</string>
+    <string name="exit">প্রস্থান</string>
+    <string name="last_login">সর্বশেষ লগইন:</string>
+    <string name="complete">সম্পূর্ণ</string>
+    <string name="signature_upload_message">সাদা কাগজে আপনার স্বাক্ষর লিখুন এবং ক্যামেরা দিয়ে এটি ক্যাপচার করুন বা ইমেজ গ্যালারি থেকে নির্বাচন করুন</string>
+    <string name="take_photo">ছবি তুলুন</string>
+    <string name="choose_from_gallery">গ্যালারি থেকে নির্বাচন করুন</string>
+    <string name="add_photo">ছবি যোগ করুন!</string>
+    <string name="select_country">দেশ নির্বাচন করুন</string>
+    <string name="currency_acceptance_message">ক্রেডিট কার্ডের জন্য মুদ্রার হিসাবে আমরা শুধুমাত্র USD সমর্থন করি</string>
+    <string name="password_recovery">পাসওয়ার্ড পুনরুদ্ধার</string>
+    <string name="verification_code">যাচাইকরণ কোড</string>
+    <string name="new_password">নতুন পাসওয়ার্ড</string>
+    <string name="secret_code_empty">যাচাইকরণ কোড খালি</string>
+    <string name="change_password">পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="change_your_password">আপনার পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="old_password">পুরানো পাসওয়ার্ড</string>
+    <string name="confirm_password">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="enter_old_password">পুরানো পাসওয়ার্ড লিখুন</string>
+    <string name="enter_new_password">নতুন পাসওয়ার্ড লিখুন</string>
+    <string name="enter_confirm_password">নিশ্চিত পাসওয়ার্ড লিখুন</string>
+    <string name="new_password_and_confirm_password_did_not_match">নতুন পাসওয়ার্ড এবং নিশ্চিত পাসওয়ার্ড মেলেনি</string>
+    <string name="i_already_have_a_verification_code">আমি ইতিমধ্যে একটি যাচাইকরণ কোড পেয়েছি</string>
+    <string name="recharge_amount">রিচার্জ পরিমাণ</string>
+    <string name="we_accept_recharge_amount_only_in_bdt">আমরা শুধুমাত্র BDT তে রিচার্জ পরিমাণ গ্রহণ করি</string>
+    <string name="less_prepaid_recharge_amount">রিচার্জের পরিমাণটি প্রিপেইডের জন্য 10 টাকা থেকে কম হতে পারে না</string>
+    <string name="less_postpaid_recharge_amount">পোস্টপেইডের জন্য রিচার্জের পরিমাণ 50 টাকা থেকে কম হতে পারে না</string>
+    <string name="phone_number_ten">ফোন নম্বর 10 অঙ্ক হওয়া আবশ্যক</string>
+    <string name="change_language">ভাষা</string>
+    <string name="change_your_language">আপনার ভাষা পরিবর্তন করুন</string>
+    <string name="account_verify">আপনার অ্যাকাউন্ট এখনো যাচাই করা হয় নি। আপনার সমস্ত অ্যাকাউন্ট তথ্য সাবধানে পূরণ করুন বা টেলো টার্মিনাল অ্যাডমিন দ্বারা আপনার অ্যাকাউন্ট যাচাই করার জন্য অপেক্ষা করুন।</string>
+    <string name="phone_number_less_ten">ফোন কম 11 টি সংখ্যা হতে হবে</string>
+    <string name="present_address_character">এই ক্ষেত্রটি সর্বাধিক 64 টি অক্ষর হতে হবে</string>
+    <string name="relationEmpty">সম্পর্ক খালি আছে</string>
+    <string name="relation">সম্পর্ক</string>
+
+    <string-array name="nationality_array">
+        <item>জাতীয়তা নির্বাচন করুন </item>
+        <item>Bangladeshi </item>
+        <item>Indian </item>
+        <item>Pakistani </item>
+        <item>Chinese </item>
+        <item>Saudi Arabian </item>
+        <item>Japanese </item>
+        <item>Australian </item>
+        <item>English </item>
+    </string-array>
+
+    <string-array name="district_array">
+        <item>শহর নির্বাচন করুন </item>
+        <item>ঢাকা </item>
+    </string-array>
+
+    <string-array name="area_array">
+        <item>এলাকা নির্বাচন করুন </item>
+        <item>আদাবর </item>
+        <item>বাড্ডা </item>
+        <item>বিমান বন্দর </item>
+        <item>বংশাল </item>
+        <item>সেনানিবাস </item>
+        <item>চকবাজার </item>
+        <item>দক্ষিণখান </item>
+        <item>দারুস সালাম </item>
+        <item>ধানমন্ডি </item>
+        <item>ডেমরা </item>
+        <item>কোতোয়ালী </item>
+        <item>গেন্ডারিয়া </item>
+        <item>গুলশান </item>
+        <item>হাজারীবাগ </item>
+        <item>যাত্রাবাড়ী </item>
+        <item>কদমতলী </item>
+        <item>কাফরুল </item>
+        <item>কলাবাগান </item>
+        <item>কামরাঙ্গীর চর </item>
+        <item>খিলক্ষেত </item>
+        <item>খিলগাঁও </item>
+        <item>লালবাগ </item>
+        <item>মিরপুর </item>
+        <item>মোহাম্মদপুর </item>
+        <item>মতিঝিল </item>
+        <item>নিউ মার্কেট </item>
+        <item>পল্লবী </item>
+        <item>পল্টন </item>
+        <item>রমনা </item>
+        <item>রামপুরা </item>
+        <item>সবুজবাগ </item>
+        <item>শাহ আলী </item>
+        <item>শাহবাগ </item>
+        <item>শাজাহানপুরে </item>
+        <item>শেরেবাংলা নগর </item>
+        <item>শ্যামপুর </item>
+        <item>সূত্রাপুরে </item>
+        <item>তেজগাঁও</item>
+        <item>তেজগাঁও শিল্প এলাকা </item>
+        <item>তুরাগ </item>
+        <item>উত্তর খান </item>
+    </string-array>
+
+    <string-array name="waiting_time_array">
+        <item>অপেক্ষা করার সময় সেট করুন </item>
+        <item>0 Min </item>
+        <item>1 Min </item>
+        <item>2 Min </item>
+        <item>3 Min </item>
+        <item>4 Min </item>
+        <item>5 Min </item>
+        <item>15 Min </item>
+
+        <!--<item>0 মিনিট</item>
+        <item>১ মিনিট </item>
+        <item>২ মিনিট </item>
+        <item>৩ মিনিট </item>
+        <item>৪ মিনিট </item>
+        <item>৫ মিনিট </item>
+        <item>১৫ মিনিট </item>-->
+    </string-array>
+
+    <string-array name="operator_array">
+        <item>অপারেটর নির্বাচন করুন </item>
+        <item>এয়ারটেল </item>
+        <item>বাংলালিংক </item>
+        <item>গ্রামীনফোন </item>
+        <item>রবি </item>
+        <item>টেলিটক </item>
+    </string-array>
+
+    <string name="intro_next_text">পরবর্তী</string>
+    <string name="intro_skip_text">বাদ দিয়া যাত্তয়া</string>
+    <string name="intro_slide_two_tag">Tap the app, transfer money</string>
+    <string name="intro_slide_third_title">Simpler.faster.smart</string>
+    <string name="intro_slide_third_tag">Transfer money by scanning QR code</string>
+    <string name="intro_slide_fourth_tag">Shop with telvo terminal easy, Secure and fast.</string>
+    <string name="intro_slide_fifth_title">quicker.simpler.better</string>
+    <string name="intro_slide_fifth_tag">Recharge your phone in less than 10 seconds.</string>
+
+</resources>

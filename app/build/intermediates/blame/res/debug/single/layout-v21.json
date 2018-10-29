@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/monir/.android/build-cache/96cf214bd1ffe03de77de18f8e8a6a56ea2c1b24/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/monir/.android/build-cache/96cf214bd1ffe03de77de18f8e8a6a56ea2c1b24/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/monir/.android/build-cache/96cf214bd1ffe03de77de18f8e8a6a56ea2c1b24/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/monir/.android/build-cache/96cf214bd1ffe03de77de18f8e8a6a56ea2c1b24/output/res/layout-v21/notification_action.xml"
+    }
+]

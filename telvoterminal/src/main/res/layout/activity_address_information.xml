@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_address_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".account.AddressInformationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_address_information"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_address_information">
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/margin_16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/inputContainerCardView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="@dimen/margin_24"
+                    android:layout_marginEnd="@dimen/margin_24"
+                    android:layout_marginLeft="@dimen/margin_24"
+                    android:layout_marginRight="@dimen/margin_24"
+                    android:layout_marginStart="@dimen/margin_24"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="1dp"
+                    card_view:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_16"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/margin_16"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:text="@string/present"
+                            android:textSize="@dimen/text_18"
+                            android:textColor="@android:color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            app:counterEnabled="true"
+                            app:counterMaxLength="64"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/presentAddressLine1EditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/address_line_1"
+                                android:inputType="text"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            app:counterEnabled="true"
+                            app:counterMaxLength="64"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/presentAddressLine2EditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/address_line_2"
+                                android:inputType="text"
+
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/presentCityEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/city"
+                                android:inputType="text"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/presentPostalCodeEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/postal_code"
+                                android:inputType="number"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <Spinner
+                            android:id="@+id/presentCountrySpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8"
+                            android:layout_marginLeft="@dimen/margin_8"
+                            android:layout_marginRight="@dimen/margin_4"
+                            android:background="@drawable/bg_spinner"/>
+
+                        <TextView
+                            android:text="@string/permanent"
+                            android:layout_marginTop="@dimen/margin_16"
+                            android:textSize="@dimen/text_18"
+                            android:textColor="@android:color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            app:counterEnabled="true"
+                            app:counterMaxLength="64"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/permanentAddressLine1EditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/address_line_1"
+                                android:inputType="text"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            app:counterEnabled="true"
+                            app:counterMaxLength="64"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/permanentAddressLine2EditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/address_line_2"
+                                android:inputType="text"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/permanentCityEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/city"
+                                android:inputType="text"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+                                android:id="@+id/permanentPostalCodeEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/postal_code"
+                                android:inputType="number"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/text_18" />
+                        </android.support.design.widget.TextInputLayout>
+
+                            <Spinner
+                                android:id="@+id/permanentCountrySpinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_8"
+                                android:layout_marginLeft="@dimen/margin_8"
+                                android:layout_marginRight="@dimen/margin_4"
+                                android:background="@drawable/bg_spinner"/>
+
+                        <telvoterminal.telvo.com.terminal.customviews.RobotoLightCheckBox
+                            android:id="@+id/sameAsPresentAddressCheckBox"
+                            android:layout_marginTop="@dimen/margin_8"
+                            android:layout_marginLeft="@dimen/margin_4"
+                            android:layout_gravity="start"
+                            android:textSize="@dimen/text_12"
+                            android:textColor="@color/colorText"
+                            android:text="@string/same_as_present_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_48"
+                    android:layout_marginLeft="@dimen/margin_48"
+                    android:layout_marginRight="@dimen/margin_48"
+                    android:layout_marginStart="@dimen/margin_48"
+                    android:elevation="6dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/inputContainerCardView"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/inputContainerCardView">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_12"
+                        app:cardUseCompatPadding="true"
+                        card_view:cardCornerRadius="1dp"
+                        card_view:cardElevation="8dp">
+
+                        <telvoterminal.telvo.com.terminal.customviews.RobotoRegularButton
+                            android:id="@+id/submitButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_button"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/ic_button_arrow"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:gravity="left|center"
+                            android:paddingLeft="@dimen/padding_16"
+                            android:paddingRight="@dimen/padding_16"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/text_18" />
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

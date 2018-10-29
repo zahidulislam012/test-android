@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">Telvo Terminal</string>
+    <string name="no_internet_connection">No Internet Connection.Please check your internet connectivity and try again.</string>
+    <string name="register">Register</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="telvo_terminal">Telvo Terminal</string>
+    <string name="title_activity_main">Telvo Terminal</string>
+    <string name="cash_in">Cash In</string>
+    <string name="cash_out">Cash Out</string>
+    <string name="transfer">Transfer</string>
+    <string name="history">History</string>
+    <string name="support">Support</string>
+    <string name="settings">Settings</string>
+    <string name="time">Date</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="sms_verification_message">We have sent a verification SMS to your mobile number. Submit verification code here:</string>
+    <string name="sms_verification">SMS Verification</string>
+    <string name="account">Account</string>
+    <string name="pending">Pending</string>
+    <string name="pending_transfer">Pending Transfer</string>
+    <string name="activity_log">Activity Log</string>
+    <string name="shop_payment">Shop Payment</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="no_account">No account?</string>
+    <string name="register_here">Register here</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="registration">Registration</string>
+
+    <string name="currency">Currency</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="address_information">Address Information</string>
+    <string name="introducer_information">Introducer Information</string>
+    <string name="name">Name</string>
+    <string name="nameEmpty">Name is Empty.</string>
+    <string name="mobile_numberEmpty">Mobile Number is Empty.</string>
+    <string name="passwordEmpty">Password is Empty.</string>
+    <string name="emailEmpty">Email is Empty.</string>
+    <string name="sms_verificationCodeEmpty">SMS Verification Code is Empty.</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="national_id">National ID</string>
+    <string name="passport_number">Passport Number</string>
+    <string name="father_name">Father Name</string>
+    <string name="mother_name">Mother Name</string>
+    <string name="spouse_name">Spouse Name</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="address_line_1">Address Line 1</string>
+    <string name="address_line_2">Address Line 2</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="present">Present</string>
+    <string name="permanent">Permanent</string>
+    <string name="same_as_present_address">Same as present address</string>
+    <string name="has_telvo_terminal_account">Has Telvo Terminal account</string>
+    <string name="introducer">Introducer</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="recharge_card">Recharge Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="amount">Amount</string>
+    <string name="csv">CSV</string>
+    <string name="proceed">Proceed</string>
+    <string name="success">Success!</string>
+    <string name="balance">Balance</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="area">Area</string>
+    <string name="done">Done</string>
+    <string name="atm_withdraw">ATM Withdraw</string>
+    <string name="home_request">Home Request</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="pin_code">PIN Code</string>
+    <string name="generate_qr">Generate QR</string>
+    <string name="atm_qr_code">ATM QR Code</string>
+    <string name="transfer_qr_code">Transfer QR Code</string>
+    <string name="address">Address</string>
+    <string name="district">District</string>
+    <string name="confirm_request">Confirm Request</string>
+    <string name="reference">Reference</string>
+    <string name="account_number">Account Number</string>
+    <string name="nid_number">NID Number</string>
+    <string name="to">To</string>
+    <string name="confirm_transfer">Confirm Transfer</string>
+    <string name="waiting_time">Waiting Time</string>
+    <string name="account_name">Account Name</string>
+    <string name="confirm_payment">Confirm Payment</string>
+    <string name="call_24_7">Call 24/7</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="TermsAndConditions">Terms And Conditions</string>
+    <string name="ask_us_anytime_for_help_and_support">Ask us anytime for help and support</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="see_privacy_policy_for_using_our_service">See privacy policy for using our service</string>
+    <string name="see_terms_and_conditions_of_our_service">See terms and conditions of our service</string>
+    <string name="feedback">Feedback</string>
+    <string name="provide_feedback_to_improve_the_service">Provide feedback to improve the service</string>
+    <string name="subject">Subject</string>
+    <string name="details">Details</string>
+    <string name="app_version">App Version</string>
+    <string name="rate">Rate</string>
+    <string name="rate_the_app_on_the_play_store">Rate the app on the Play Store</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="invite_your_friends_to_use_the_app">Invite your friends to use the app</string>
+    <string name="walkthrough">Walkthrough</string>
+    <string name="learn_more_about_the_app">Learn more about the app</string>
+    <string name="about">About</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="notifications">Notifications</string>
+    <string name="vibrate_and_play_sound">Vibrate and play sound</string>
+    <string name="change_4_digit_pin_code">Change 4 digit PIN code</string>
+    <string name="old_pin">Old PIN</string>
+    <string name="new_pin">New PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="play_sound">Play sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="sound">Sound</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="currency_not_selected">You must select a Currency</string>
+    <string name="present_address_line_1_empty">Present address line 1 empty</string>
+    <string name="present_address_line_2_empty">Present address line 2 empty</string>
+    <string name="present_city_empty">Present city empty</string>
+    <string name="present_postal_code_empty">Present postal code empty</string>
+    <string name="present_country_was_not_selected">Present country was not selected</string>
+    <string name="permanent_address_line_1_empty">Permanent address line 1 empty</string>
+    <string name="permanent_address_line_2_empty">Permanent address line 2 empty</string>
+    <string name="permanent_city_empty">Permanent city empty</string>
+    <string name="permanent_postal_code_empty">Permanent postal code empty</string>
+    <string name="permanent_country_was_not_selected">Permanent country was not selected</string>
+    <string name="picture_not_selected">Picture not selected</string>
+    <string name="sign_not_selected">Sign Picture not selected</string>
+    <string name="father_name_empty">Father name empty</string>
+    <string name="mother_name_empty">Mother name empty</string>
+    <string name="spouse_name_empty">Spouse name empty</string>
+    <string name="nationality_not_selected">Nationality not selected</string>
+    <string name="date_of_birth_empty">Date of birth empty</string>
+    <string name="gender_not_selected">Gender not selected</string>
+    <string name="national_id_or_passport_number_empty">National ID or Passport number empty</string>
+    <string name="csv_empty">CSV empty</string>
+    <string name="amount_empty">Amount empty</string>
+    <string name="name_empty">Name empty</string>
+    <string name="card_number_empty">Card number empty</string>
+    <string name="date_not_selected">Date not selected</string>
+    <string name="enter_pin_code">Enter PIN code</string>
+    <string name="invalid_pin_size">Enter four digit PIN code</string>
+    <string name="invalid_old_pin_size">Enter four digit old PIN code</string>
+    <string name="invalid_new_pin_size">Enter four digit new PIN code</string>
+    <string name="invalid_confirm_pin_size">Enter four digit confirm PIN code</string>
+    <string name="district_not_selected">District not selected</string>
+    <string name="area_not_selected">Area not selected</string>
+    <string name="area_empty">Area empty</string>
+    <string name="enter_old_pin_code">Enter old PIN code</string>
+    <string name="enter_new_pin_code">Enter new PIN code</string>
+    <string name="enter_confirm_pin_code">Enter confirm PIN code</string>
+    <string name="new_pin_and_confirm_pin_did_not_match">New PIN and Confirm PIN did not match</string>
+    <string name="subject_empty">Subject empty</string>
+    <string name="details_empty">Details empty</string>
+    <string name="account_number_empty">Account number empty</string>
+    <string name="reference_empty">Reference empty</string>
+    <string name="natinal_id_empty">National ID empty</string>
+    <string name="address_empty">Address empty</string>
+    <string name="account_name_empty">Account name empty</string>
+    <string name="select_waiting_time">Select waiting time</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="card_number_should_be_16_digit">Card number should be 16 digit</string>
+    <string name="card_number_not_valid">Card number not valid</string>
+    <string name="card_expiration_date_not_valid">Card expiration date not valid</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="insufficient_balance">Insufficient balance</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="logout">Log Out</string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="you_must_agree_the_terms_and_conditions">You must agree to the terms and conditions</string>
+    <string name="qr_transfer">QR Transfer</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="top_up">Top Up</string>
+    <string name="prepaid">Prepaid</string>
+    <string name="postpaid">Postpaid</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="select_operator">Select Operator</string>
+    <string name="select_phone_no_type">Select type of phone number</string>
+    <string name="phone_number_empty">Phone number empty</string>
+    <string name="payment_done">Payment Done</string>
+    <string name="warning">Warning</string>
+    <string name="w_meessage">This person do not have Account in Telvo Terminal. Do you want to transfer payment.</string>
+    <string name="fees">Fees</string>
+    <string name="mobile_invalid">Mobile Number is not Valid</string>
+    <string name="total">Total</string>
+    <string name="SMS_Verification">SMS Verification</string>
+    <string name="SMS_Verification_Message">Your sms verification is pending. Please verify to use Telvo Terminal</string>
+    <string name="exit_message">Are you sure you want to exit the app?</string>
+    <string name="exit">Exit</string>
+    <string name="last_login">Last Login: </string>
+    <string name="complete">Complete</string>
+    <string name="signature_upload_message">Write Your Signature in White Paper and Capture it via Camera or Select it from image Gallery</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="add_photo">Add Photo!</string>
+    <string name="select_country">Select Country</string>
+    <string name="currency_acceptance_message">We Accept Deposit Amount USD Currency Only fo Card</string>
+    <string name="password_recovery">Password Recovery</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="new_password">New Password</string>
+    <string name="secret_code_empty">Secret Code empty</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_your_password">Change your password</string>
+    <string name="old_password">Old Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="enter_confirm_password">Enter confirm password</string>
+    <string name="new_password_and_confirm_password_did_not_match">New password and confirm password did not match</string>
+    <string name="i_already_have_a_verification_code">I have already received a verification code</string>
+    <string name="recharge_amount">Recharge Amount</string>
+    <string name="we_accept_recharge_amount_only_in_bdt">We accept recharge amount only in BDT</string>
+    <string name="less_prepaid_recharge_amount">Recharge amount cannot be less than BDT 10 for prepaid</string>
+    <string name="less_postpaid_recharge_amount">Recharge amount cannot be less than BDT 50 for postpaid</string>
+    <string name="phone_number_ten">Phone Number must be 10 Digit</string>
+    <string name="change_language">Language</string>
+    <string name="change_your_language">Change Your Language</string>
+    <string name="account_verify">Your account is not verified yet.Please fill your all account information carefully or waiting for verified your account by Telvo Terminal Admin.</string>
+    <string name="phone_number_less_ten">Phone must be less then 11 Digits.</string>
+    <string name="present_address_character">This field must be at most 64 characters</string>
+    <string name="relationEmpty">Relation is Empty.</string>
+    <string name="relation">Relation</string>
+
+    <string-array name="nationality_array">
+        <item>Select Nationality </item>
+        <item>Bangladeshi </item>
+        <item>Indian </item>
+        <item>Pakistani </item>
+        <item>Chinese </item>
+        <item>Saudi Arabian </item>
+        <item>Japanese </item>
+        <item>Australian </item>
+        <item>English </item>
+    </string-array>
+
+
+    <string-array name="district_array">
+        <item>Select City </item>
+        <item>Dhaka</item>
+    </string-array>
+
+    <string-array name="area_array">
+        <item>Select Area</item>
+        <item>Adabor</item>
+        <item>Badda</item>
+        <item>Biman Bandar</item>
+        <item>Bangshal</item>
+        <item>Cantonment</item>
+        <item>Chawkbazar Model</item>
+        <item>Dakshinkhan</item>
+        <item>Darus Salam</item>
+        <item>Dhanmondi</item>
+        <item>Demra</item>
+        <item>Kotwali</item>
+        <item>Gendaria</item>
+        <item>Gulshan</item>
+        <item>Hazaribagh</item>
+        <item>Jatrabari</item>
+        <item>Kadamtali</item>
+        <item>Kafrul</item>
+        <item>Kalabagan</item>
+        <item>Kamringir Char</item>
+        <item>Khilkhet</item>
+        <item>Khilgaon</item>
+        <item>Lalbagh</item>
+        <item>Mirpur</item>
+        <item>Mohammadpur</item>
+        <item>Motijheel</item>
+        <item>New Market</item>
+        <item>Pallabi</item>
+        <item>Paltan</item>
+        <item>Ramna</item>
+        <item>Rampura</item>
+        <item>Sabujbagh</item>
+        <item>Shah Ali</item>
+        <item>Shahbagh</item>
+        <item>Shahjahanpur</item>
+        <item>Sher-e-Bangla Nagor</item>
+        <item>Shyampur</item>
+        <item>Sutrapur</item>
+        <item>Tejgaon</item>
+        <item>Tejgaon Industrial Area</item>
+        <item>Turag</item>
+        <item>Uttar Khan</item>
+    </string-array>
+
+    <string-array name="waiting_time_array">
+        <item>Set Waiting Time </item>
+        <item>0 Min</item>
+        <item>1 Min</item>
+        <item>2 Min</item>
+        <item>3 Min</item>
+        <item>4 Min</item>
+        <item>5 Min</item>
+        <item>15 Min</item>
+    </string-array>
+
+    <string-array name="operator_array">
+        <item>Select Operator </item>
+        <item>Airtel</item>
+        <item>Banglalink</item>
+        <item>GrameenPhone</item>
+        <item>Robi</item>
+        <item>Teletalk</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agent_number">Agent Number</string>
+    <string name="_880">+880</string>
+    <string name="agent_withdraw">Agent Withdraw</string>
+    <string name="agent_number_empty">Agent number empty</string>
+    <string name="agent_number_invalid">Agent number invalid</string>
+    <string name="agent">Agent</string>
+    <string name="confirm_withdraw">Confirm Withdraw</string>
+    <string name="atm">ATM</string>
+    <string name="select_area">Select Area</string>
+
+    <string name="intro_next_text">Next</string>
+    <string name="intro_skip_text">Skip</string>
+    <string name="title_activity_test">Test</string>
+    <string name="first_intro_slide_title">Your money.we drop</string>
+    <string name="first_intro_slide_tag">Money delevered to your door by <font fgcolor='#FB4747'> Telvo Terminal</font></string>
+    <string name="intro_slide_two_title">Take the money and run</string>
+    <string name="intro_slide_two_tag">Tap the app, Transfer money</string>
+    <string name="intro_slide_third_title">Simpler.faster.smart</string>
+    <string name="intro_slide_third_tag">Transfer money by scanning QR code.</string>
+    <string name="intro_slide_fouth_title">Time to go cashless</string>
+    <string name="intro_slide_fourth_tag">Shop with <font fgcolor='#FB4747'>Telvo Terminal</font> easy, Secure and fast.</string>
+    <string name="intro_slide_fifth_title">quicker.simpler.better</string>
+    <string name="intro_slide_fifth_tag">Recharge your phone in less than 10 seconds.</string>
+    <string name="old_pin_mismatch_msg">Your Old PIN Code is not Match</string>
+
+</resources>

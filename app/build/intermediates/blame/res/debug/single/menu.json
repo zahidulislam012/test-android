@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/menu/main.xml"
+    }
+]

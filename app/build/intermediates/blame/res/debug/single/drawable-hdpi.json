@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/history_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/history_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/set_profile_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/set_profile_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/withdraw_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/withdraw_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_contacts_grey600_48dp.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/ic_contacts_grey600_48dp.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/deposit_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/deposit_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_contacts_grey600_36dp.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/ic_contacts_grey600_36dp.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/contacts.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/generated/res/pngs/debug/drawable-hdpi/contacts.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/background_login.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/background_login.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_contacts_grey600_18dp.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/ic_contacts_grey600_18dp.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_contacts_grey600_24dp.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/ic_contacts_grey600_24dp.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-hdpi/sendmoney_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-hdpi/sendmoney_icon.png"
+    }
+]

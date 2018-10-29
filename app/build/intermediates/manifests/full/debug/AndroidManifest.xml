@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.telvo.telvopay"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.telvo.telvopay.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.telvo.telvopay.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.telvo.telvopay.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.telvo.telvopay.UserLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.telvopay.UserRegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.telvopay.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+
+        <service android:name="com.telvo.pushmessage.PayFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.telvo.pushmessage.PayFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.telvo.paymentactivity.transfer.TransferActivity"
+            android:label="@string/transfer" />
+        <activity
+            android:name="com.telvo.telvopay.TransactionHistoryActivity"
+            android:label="History"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.telvo.telvopay.DepositTypeActivity" />
+        <activity
+            android:name="com.telvo.paymentactivity.cashout.CashOutActivity"
+            android:label="@string/cash_out"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.paymentactivity.cashin.CashInActivity"
+            android:label="@string/deposit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.paymentactivity.cashin.CardCashInActivity"
+            android:label="Card Recharge "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.telvopay.LocalBankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.telvopay.ActivityLogsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.profile.CurrencyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.profile.IntroducerActivity"
+            android:label="@string/introduce_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.profile.AccountHolderActivity"
+            android:label="Account Holder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.profile.GovernmentInfoActivity"
+            android:label="Address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.authactivity.SMSVerificationActivity"
+            android:label="SMS Verification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.authactivity.MoneyVerificationActivity"
+            android:label="SMS Verification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.telvo.telvopay.braintree" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.telvo.paymentactivity.cashin.TTRechargeActivity"
+            android:label="@string/ttrecharge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.telvo.paymentactivity.transfer.TransferNotUserActivity"
+            android:label="@string/transfer"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.telvo.paymentactivity.cashout.CashOutTypeActivity" />
+        <activity android:name="com.telvo.paymentactivity.transfer.TransferViaQRActivity" />
+        <activity android:name="com.telvo.telvopay.ComplainActivity" />
+        <activity android:name="com.telvo.telvopay.SupportActivity" />
+        <activity android:name="com.telvo.telvopay.AboutActivity" />
+        <activity
+            android:name="com.telvo.telvopay.SettingsActivity"
+            android:parentActivityName="com.telvo.telvopay.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name="com.telvo.profile.UserProfileActivity" />
+        <activity android:name="com.telvo.aboutus.WebViewActivity" />
+        <!--
+         FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.braintreepayments.api.AndroidPayActivity"
+            android:theme="@style/bt_transparent_activity" />
+        <activity
+            android:name="com.braintreepayments.api.GooglePaymentActivity"
+            android:theme="@style/bt_transparent_activity" />
+        <activity android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity" />
+
+        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.telvo.telvopay" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.telvo.telvopay.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

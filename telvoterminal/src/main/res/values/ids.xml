@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cash_in" type="id">Cash In</item>
+    <item name="name_empty" type="id">Name empty</item>
+    <item name="card_number_empty" type="id">Card number empty</item>
+    <item name="date_not_selected" type="id">Date not selected</item>
+</resources>

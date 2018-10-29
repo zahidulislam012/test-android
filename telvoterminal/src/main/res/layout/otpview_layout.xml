@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+        android:id="@+id/otp_one_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/otp_one_edit_text"
+        android:nextFocusRight="@+id/otp_two_edit_text"
+        android:textSize="@dimen/text_18" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+        android:id="@+id/otp_two_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/otp_one_edit_text"
+        android:nextFocusRight="@+id/otp_three_edit_text"
+        android:textSize="@dimen/text_18" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+        android:id="@+id/otp_three_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/otp_two_edit_text"
+        android:nextFocusRight="@+id/otp_four_edit_text"
+        android:textSize="@dimen/text_18" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularEditText
+        android:id="@+id/otp_four_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/otp_three_edit_text"
+        android:nextFocusRight="@+id/otp_four_edit_text"
+        android:textSize="@dimen/text_18" />
+</LinearLayout>

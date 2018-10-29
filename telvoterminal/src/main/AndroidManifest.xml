@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="telvoterminal.telvo.com.terminal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".HelloCashApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_terminal"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_terminal"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity
+            android:name=".auth.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="telvoterminal.com"
+                    android:scheme="http" />
+
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="telvoterminal.com"
+                    android:scheme="http"
+                    android:pathPrefix="/transferqrcode"/>
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".auth.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+
+
+
+        </activity>
+        <activity
+            android:name=".auth.RegistrationActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".auth.LoginActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auth.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".mainscreen.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".auth.SMSVerificationActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".auth.RegistrationActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auth.RegistrationActivity" />
+        </activity>
+        <activity
+            android:name=".account.CurrencyActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".account.PersonalInformationActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".account.AddressInformationActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".account.IntroducerActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".generalscreen.SuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cashout.AtmQrCodeActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".cashout.ConfirmRequestActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".transfer.TransferToNonUserActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".transfer.ConfirmTransferActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".shoppayment.ConfirmPaymentActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".support.HelpAndSupportActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".support.PrivacyPolicyActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".support.TermsAndConditionsActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".settings.ChangePinCodeActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".settings.NotificationsActivity"
+            android:parentActivityName=".mainscreen.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainscreen.MainActivity" />
+        </activity>
+        <activity
+            android:name=".auth.SetPinCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".qrtransfer.TransferQRCodeActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".pushservice.TerminalFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".pushservice.TerminalFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".pushservice.RegistrationIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <!-- image share provider -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="telvoterminal.telvo.com.terminal.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_paths" />
+        </provider>
+
+        <activity
+            android:name=".forgotpassword.FPSendNumberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgotpassword.FPResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".cashout.ConfirmAgentWithdrawActivity" />
+        <activity android:name=".introscreen.IntroScreenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

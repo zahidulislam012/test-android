@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-ldpi/contacts.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/generated/res/pngs/debug/drawable-ldpi/contacts.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-ldpi/set_profile_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-ldpi/set_profile_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-ldpi/withdraw_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-ldpi/withdraw_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-ldpi/deposit_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-ldpi/deposit_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-ldpi/sendmoney_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-ldpi/sendmoney_icon.png"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/drawable-ldpi/history_icon.png",
+        "source": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/src/main/res/drawable-ldpi/history_icon.png"
+    }
+]

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.telvo.telvopay.UserLoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_login" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_center"
+        android:layout_width="@dimen/width_336"
+        android:layout_height="@dimen/height_240"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_input_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_42"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:padding="@dimen/padding_16"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardCornerRadius="1dp"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/edit_text_mobile_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/mobile_number"
+                        android:inputType="phone"
+                        android:textColor="@color/colorText"
+                        android:textSize="@dimen/text_22" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_36">
+
+                    <EditText
+                        android:id="@+id/edit_text_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorText"
+                        android:textSize="@dimen/text_22" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_16"
+            card_view:cardCornerRadius="1dp"
+            card_view:cardElevation="12dp">
+
+            <com.telvo.customviews.RobotoRegularButton
+                android:id="@+id/btn_login"
+                android:layout_width="@dimen/width_256"
+                android:layout_height="@dimen/height_52"
+                android:background="@drawable/bg_red"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:drawableRight="@drawable/arrow"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingRight="@dimen/padding_8"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_22" />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_account"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_18" />
+
+        <TextView
+            android:id="@+id/text_view_register_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_4"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/register_here"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_18" />
+    </LinearLayout>
+</RelativeLayout>
+
+    <!--<LinearLayout--><!--android:id="@+id/userLoginLinearLayout"--><!--android:layout_width="match_parent"--><!--android:orientation="vertical"--><!--android:layout_height="match_parent"--><!--android:layout_below="@+id/toolbar">-->
+
+    <!--<LinearLayout--><!--android:orientation="vertical"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_marginLeft="@dimen/margin_15"--><!--android:layout_marginRight="@dimen/margin_15"--><!--android:gravity="center"--><!--android:layout_weight="2">--><!----><!--<LinearLayout--><!--android:orientation="vertical"--><!--android:layout_width="match_parent"--><!--android:background="@android:color/white"--><!--android:padding="@dimen/padding_10"--><!--android:layout_height="wrap_content">--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:gravity="center"--><!--android:orientation="horizontal">-->
+
+    <!--<com.hbb20.CountryCodePicker--><!--android:id="@+id/countryCodePicker"--><!--android:layout_width="wrap_content"--><!--app:defaultNameCode="BD"--><!--android:layout_height="wrap_content" />-->
+
+    <!--<android.support.design.widget.TextInputLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+    <!--<EditText--><!--android:id="@+id/mobileNumberEditText"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:hint="@string/mobile_number"--><!--android:inputType="phone" />--><!--</android.support.design.widget.TextInputLayout>--><!--</LinearLayout>--><!--<android.support.design.widget.TextInputLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">--><!--<EditText--><!--android:id="@+id/passwordEditText"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:inputType="textPassword"--><!--android:text="123456"--><!--android:hint="@string/password" />--><!--</android.support.design.widget.TextInputLayout>--><!--</LinearLayout>--><!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:orientation="vertical"--><!--android:layout_marginTop="@dimen/margin_20"--><!--android:layout_height="wrap_content">--><!--<android.support.v7.widget.AppCompatButton--><!--android:id="@+id/loginButton"--><!--android:layout_width="match_parent"--><!--android:background="@drawable/button_white_round"--><!--android:text="@string/login"--><!--android:textColor="@color/F64747"--><!--android:layout_height="wrap_content" />--><!--</LinearLayout>--><!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:orientation="horizontal"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:gravity="center"--><!--android:layout_weight="8">-->
+
+    <!--<TextView--><!--android:textSize="@dimen/text_16"--><!--android:textColor="@android:color/white"--><!--android:text="@string/donotaccount"--><!--android:layout_width="wrap_content"--><!--android:layout_marginRight="@dimen/margin_10"--><!--android:layout_height="wrap_content" />-->
+
+    <!--<android.support.v7.widget.AppCompatButton--><!--android:text="@string/register"--><!--android:layout_width="wrap_content"--><!--android:textSize="@dimen/text_18"--><!--android:paddingLeft="@dimen/padding_15"--><!--android:paddingRight="@dimen/padding_15"--><!--android:background="@drawable/button_white_round"--><!--android:layout_height="@dimen/height_35"--><!--android:textAllCaps="false"--><!--android:textColor="@color/F64747"--><!--android:id="@+id/registerButton"--><!--/>-->
+
+    <!--</LinearLayout>--><!--</LinearLayout>-->

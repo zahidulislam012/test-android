@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/raw/zxing_beep.ogg",
+        "source": "/home/monir/.android/build-cache/4a224124af92b851da3afb215c8c913c891cd3f6/output/res/raw/zxing_beep.ogg"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/raw/tokenize_credit_card_mutation.graphql",
+        "source": "/home/monir/.android/build-cache/502a3d5b7516447f17fcf188943ad824dfaa27fc/output/res/raw/tokenize_credit_card_mutation.graphql"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/raw/countries",
+        "source": "/home/monir/.android/build-cache/0136d2d00ab777d158434ab8d3a6a3958e243f2a/output/res/raw/countries"
+    }
+]

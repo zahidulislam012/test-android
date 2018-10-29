@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.telvo.authactivity.SMSVerificationActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_login" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_sms_verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_center"
+        android:layout_width="@dimen/width_336"
+        android:layout_height="@dimen/height_256"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_input_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_42"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:padding="@dimen/padding_16"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardCornerRadius="1dp"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10">
+
+                <TextView
+                    android:text="@string/sms_verification_message"
+                    android:textSize="@dimen/text_18"
+                    android:textColor="@color/colorText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_36">
+
+                    <EditText
+                        android:id="@+id/edit_text_verification_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/code"
+                        android:inputType="numberPassword"
+                        android:textColor="@color/colorText"
+                        android:textSize="@dimen/text_22" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_16"
+            card_view:cardCornerRadius="1dp"
+            card_view:cardElevation="12dp">
+
+            <com.telvo.customviews.RobotoRegularButton
+                android:id="@+id/btn_submit_code"
+                android:layout_width="@dimen/width_256"
+                android:layout_height="@dimen/height_52"
+                android:background="@drawable/bg_red"
+                android:clickable="true"
+                android:drawableRight="@drawable/arrow"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingRight="@dimen/padding_8"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_22" />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>
+
+<!--
+    <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.telvo.authactivity.SMSVerificationActivity">
+
+<include
+    layout="@layout/app_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme" />
+
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/containNestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Please check your text message in you phone inbox and enter the verification code"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_18"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_round"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_10">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/codeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Verification Code"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_white_round"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@color/F64747" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
+-->

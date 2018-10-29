@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/monir/.android/build-cache/96cf214bd1ffe03de77de18f8e8a6a56ea2c1b24/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/monir/Desktop/AndroidProjects/hellocash-android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/monir/.android/build-cache/96cf214bd1ffe03de77de18f8e8a6a56ea2c1b24/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

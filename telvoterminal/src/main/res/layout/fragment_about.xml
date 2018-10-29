@@ -1,0 +1,155 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="telvoterminal.telvo.com.terminal.about.AboutFragment">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/versionLinearLayout"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:text="@string/app_version"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:id="@+id/appVersionTextView"
+                    android:text="1.0.0"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_10"
+                    android:layout_marginTop="@dimen/margin_4"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:id="@+id/rateLinearLayout"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:text="@string/rate"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:text="@string/rate_the_app_on_the_play_store"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_10"
+                    android:layout_marginTop="@dimen/margin_4"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:id="@+id/inviteLinearLayout"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:text="@string/invite_friends"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:text="@string/invite_your_friends_to_use_the_app"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_10"
+                    android:layout_marginTop="@dimen/margin_4"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:id="@+id/walkthroughLinearLayout"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:text="@string/walkthrough"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+                    android:text="@string/learn_more_about_the_app"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_10"
+                    android:layout_marginTop="@dimen/margin_4"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

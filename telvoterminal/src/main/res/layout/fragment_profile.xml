@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="telvoterminal.telvo.com.terminal.account.ProfileFragment">
+
+    <telvoterminal.telvo.com.terminal.circularprogressbar.CircularProgressBar
+        android:id="@+id/submittedInfoProgressBar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cpb_background_progressbar_color="#ededed"
+        app:cpb_background_progressbar_width="5dp"
+        app:cpb_progressbar_color="#ffff00"
+        app:cpb_progressbar_width="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <telvoterminal.telvo.com.terminal.circularprogressbar.CircularProgressBar
+        android:id="@+id/acceptedInfoProgressBar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cpb_background_progressbar_color="#00000000"
+        app:cpb_background_progressbar_width="5dp"
+        app:cpb_progressbar_color="#37a000"
+        app:cpb_progressbar_width="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/userImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_home_user_photo"
+        app:civ_border_width="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/submittedInfoProgressBar"
+        app:layout_constraintEnd_toEndOf="@+id/submittedInfoProgressBar"
+        app:layout_constraintStart_toStartOf="@+id/submittedInfoProgressBar"
+        app:layout_constraintTop_toTopOf="@+id/submittedInfoProgressBar" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoLightTextView
+        android:id="@+id/profileCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="80% Complete"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/submittedInfoProgressBar" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profileCompleteTextView" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+        android:id="@+id/setCurrencyTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingRight="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16"
+        android:text="@string/currency"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view1" />
+
+    <ImageView
+        android:id="@+id/arrowImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_8"
+        android:src="@drawable/ic_profile_arrow"
+        app:layout_constraintBottom_toBottomOf="@id/setCurrencyTextView"
+        app:layout_constraintRight_toRightOf="@id/setCurrencyTextView"
+        app:layout_constraintTop_toTopOf="@id/setCurrencyTextView" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/setCurrencyTextView" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+        android:id="@+id/personalInformationTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingRight="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16"
+        android:text="@string/personal_information"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view2" />
+
+    <ImageView
+        android:id="@+id/arrowImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_8"
+        android:src="@drawable/ic_profile_arrow"
+        app:layout_constraintBottom_toBottomOf="@id/personalInformationTextView"
+        app:layout_constraintRight_toRightOf="@id/personalInformationTextView"
+        app:layout_constraintTop_toTopOf="@id/personalInformationTextView" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/personalInformationTextView" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+        android:id="@+id/addressInformationTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingRight="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16"
+        android:text="@string/address_information"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view3" />
+
+    <ImageView
+        android:id="@+id/arrowImageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_8"
+        android:src="@drawable/ic_profile_arrow"
+        app:layout_constraintBottom_toBottomOf="@id/addressInformationTextView"
+        app:layout_constraintRight_toRightOf="@id/addressInformationTextView"
+        app:layout_constraintTop_toTopOf="@id/addressInformationTextView" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addressInformationTextView" />
+
+    <telvoterminal.telvo.com.terminal.customviews.RobotoRegularTextView
+        android:id="@+id/introducerInformationTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingRight="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16"
+        android:text="@string/introducer_information"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view4" />
+
+    <ImageView
+        android:id="@+id/arrowImageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_8"
+        android:src="@drawable/ic_profile_arrow"
+        app:layout_constraintBottom_toBottomOf="@id/introducerInformationTextView"
+        app:layout_constraintRight_toRightOf="@id/introducerInformationTextView"
+        app:layout_constraintTop_toTopOf="@id/introducerInformationTextView" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorText"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/introducerInformationTextView" />
+</android.support.constraint.ConstraintLayout>

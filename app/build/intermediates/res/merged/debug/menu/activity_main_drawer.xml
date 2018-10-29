@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account"
+            android:title="@string/account" />
+        <item
+            android:id="@+id/nav_cash_in"
+            android:icon="@drawable/cash_in"
+            android:title="@string/cash_in" />
+        <item
+            android:id="@+id/nav_cash_out"
+            android:icon="@drawable/cash_out"
+            android:title="@string/cash_out" />
+        <item
+            android:id="@+id/nav_transfer"
+            android:icon="@drawable/transfer"
+            android:title="@string/transfer" />
+        <item
+            android:id="@+id/nav_pending_payment"
+            android:icon="@drawable/pending"
+            android:title="@string/pending_payment" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/nav_activity_log"
+            android:icon="@drawable/activity_log"
+            android:title="@string/activity_log" />
+        <item
+            android:id="@+id/nav_shop_payment"
+            android:icon="@drawable/shop_payment"
+            android:title="@string/shop_payment" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/support"
+            android:title="@string/support" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/setting"
+            android:title="@string/settings" />
+    </group>
+
+</menu>

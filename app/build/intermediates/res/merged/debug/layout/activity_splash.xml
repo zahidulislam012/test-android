@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.telvo.telvopay.SplashActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:src="@drawable/splash_bg"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#D9D63535"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Telvo Terminal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_26"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTint="@android:color/white"
+                android:indeterminateTintMode="src_in"
+                android:id="@+id/progressBar" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

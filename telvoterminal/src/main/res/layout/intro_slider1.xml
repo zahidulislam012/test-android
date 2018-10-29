@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.50"
+        android:background="@drawable/intro_background">
+
+        <ImageView
+            android:id="@+id/mobile_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/home_request" />
+
+        <!--<ImageView
+            android:id="@+id/road_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mobile_img"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:src="@drawable/road" />-->
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.50"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_25"
+            android:gravity="top|center"
+            android:text="@string/first_intro_slide_title"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tag_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_text"
+            android:gravity="top|center"
+            android:text="@string/first_intro_slide_tag"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_14" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

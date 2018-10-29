@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB4747</color>
+    <color name="colorPrimaryDark">#D63535</color>
+    <color name="colorSelectedTab">#e64444</color>
+    <color name="colorAccent">#f94f4f</color>
+    <color name="colorText">#939597</color>
+    <color name="colorTabText">#DDDDDD</color>
+    <color name="colorNavigationItemSelector">#4dfb4747</color>
+    <color name="dot_active">#FFFFFF</color>
+    <color name="dot_inactive">#f98da5</color>
+</resources>

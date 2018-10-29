@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:key="show_notifications"
+        android:title="Notifications"
+        android:defaultValue="@bool/pref_show_notifications_default" />
+
+    <Preference
+        android:key="pref_version_key"
+        android:persistent="false"
+        android:title="Version"
+        android:summary="1.0.0"/>
+
+    <Preference
+        android:key="pref_about_us_key"
+        android:persistent="false"
+        android:title="About Us"/>
+
+</PreferenceScreen>
