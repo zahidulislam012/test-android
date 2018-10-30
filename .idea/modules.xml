@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/telvoterminal/telvoterminal.iml" filepath="$PROJECT_DIR$/telvoterminal/telvoterminal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wallet-android.iml" filepath="$PROJECT_DIR$/wallet-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-android.iml" filepath="$PROJECT_DIR$/test-android.iml" />
     </modules>
   </component>
 </project>
